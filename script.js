@@ -15,8 +15,6 @@ console.log(linguagens[2]) // “C++”
 
 // Adicionar valores da lista na página com DOM.
 const lista = document.querySelector("#lista");  //seleciona elemento com id "lista" e guarda na variável "lista"
-lista.textContent = linguagens[1];
-
-//lista.textContent = linguagens[0]; // altera o elemento HTML da variável "lista" para o valor 0 da lista "linguagens"
+lista.textContent = linguagens[0]; // altera o elemento HTML da variável "lista" para o valor 0 da lista "linguagens"
 //lista.textContent = linguagens[1]; //
 //lista.textContent = linguagens[2];
