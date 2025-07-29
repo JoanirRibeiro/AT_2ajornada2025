@@ -18,3 +18,6 @@ const lista = document.querySelector("#lista");  //seleciona elemento com id "li
 lista.textContent = linguagens[0]; // altera o elemento HTML da variável "lista" para o valor 0 da lista "linguagens"
 //lista.textContent = linguagens[1]; //
 //lista.textContent = linguagens[2];
+
+const objeto = document.querySelector("#aluno");
+objeto.textContent = aluno1.nome;
